@@ -125,7 +125,20 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'SQL',
+    'Python',
+    'Snowflake',
+    'dbt',
+    'Airflow',
+    'Power BI',
+    'Tableau',
+    'AWS',
+    'GCP',
+    'Terraform',
+    'CI/CD',
+    'BigQuery',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +148,24 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              I’m Sunil Chaudhary, a data and cloud-focused technologist currently pursuing my M.S.
+              in Information Systems at Northeastern University. My work sits at the intersection of
+              data engineering, analytics, cloud platforms, automation, and business
+              problem-solving.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              I’ve built reporting pipelines, dashboards, cloud-native applications, ETL workflows,
+              and data quality processes across modern data and cloud tools. I enjoy taking messy
+              systems, unclear requirements, or scattered data sources and turning them into
+              reliable, scalable solutions that people can actually use.
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              Beyond technical delivery, I care about making technology understandable. Whether I’m
+              building a dashboard for stakeholders, migrating legacy reports to Snowflake,
+              designing cloud infrastructure, or documenting workflows for a team, my goal is always
+              the same: create systems that are clear, dependable, and useful.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
